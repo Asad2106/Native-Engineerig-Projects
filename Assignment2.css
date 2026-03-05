@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(100, 99, 139);
+}
+
+header{
+    font-size: 110px;
+    color: azure;
+}
+.image{
+    display: center;
+    justify-content: flex-end;
+    float: right;
+    margin: 25px;
+    
+}
+nav{ 
+    display: flex;
+    border: 100px;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(45, 26, 113);
+    color: azure;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 25px;
+
+}
+.boxed-text{
+    color: rgb(0, 0, 0);
+    background-color: blueviolet;
+    padding: 15px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 50px;
+    float: right;
+    margin: 5px;
+    margin-right: 250px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+    position: relative;
+    top: 10px;
+    border: 4px solid;
+    padding: center;
+    border-radius: 8px;
+    
+}
+p{
+    font-size: 2.0em;
+    padding: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 1.5em;
+    color: aliceblue;
+}
+
+.link{
+    display: block;
+    margin: 10px;
+    padding: 100px;
+    text-align: center;
+}
+
+footer{
+    color: rgb(233, 210, 79);
+    font-size: 2.5em;
+    text-align: center;
+    height: 1px;
+    display: flex;
+    flex-direction: column;
+    min-height: 1vh;
+    margin-top: -50px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        background-color: rgb(53, 26, 164); 
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .container {
+        background-color: rgb(9, 74, 135); /* Color changes on desktops */
+        width: 70%;
+    }
+}
